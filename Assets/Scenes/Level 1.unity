@@ -644,6 +644,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d071f755a34630046b7cc0575a8fe4dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minX: 1
+  maxX: 15
   screenWidthInUnits: 16
 --- !u!1 &1830538980
 GameObject:
@@ -657,6 +659,7 @@ GameObject:
   - component: {fileID: 1830538983}
   - component: {fileID: 1830538982}
   - component: {fileID: 1830538981}
+  - component: {fileID: 1830538985}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -757,12 +760,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830538980}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.49, y: 7.94, z: 0}
+  m_LocalPosition: {x: 5.01, y: 0.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1830538985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830538980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc9d3c4a9ddd9464887b4cbc5a8f852e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paddle1: {fileID: 1622734755}
 --- !u!1 &2049899455
 GameObject:
   m_ObjectHideFlags: 0
