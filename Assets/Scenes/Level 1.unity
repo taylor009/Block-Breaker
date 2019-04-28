@@ -582,7 +582,7 @@ PrefabInstance:
     - target: {fileID: 6848046377652617506, guid: 6f410f5577c8bf547a0199434866431e,
         type: 3}
       propertyPath: gameSpeed
-      value: 0.15
+      value: 0.79
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f410f5577c8bf547a0199434866431e, type: 3}
@@ -1594,6 +1594,11 @@ PrefabInstance:
         type: 3}
       propertyPath: yPush
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8801492734740146543, guid: 313bb87cb44cd7941afef2f1a221251c,
+        type: 3}
+      propertyPath: randomFactor
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 313bb87cb44cd7941afef2f1a221251c, type: 3}
